@@ -1,4 +1,3 @@
-
 const SupportPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -33,23 +32,12 @@ const SupportPage = () => {
           <section className="bg-white shadow rounded-lg p-6">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Common Topics</h2>
             <ul className="space-y-3 text-gray-600">
-              <li>• Booking and Payment Issues</li>
               <li>• Account Management</li>
-              <li>• Ticket Refunds and Changes</li>
               <li>• Technical Support</li>
               <li>• App Features</li>
             </ul>
           </section>
 
-          {/* Business Hours */}
-          <section className="bg-white shadow rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Business Hours</h2>
-            <p className="text-gray-600">
-              Monday - Friday: 9:00 AM - 6:00 PM (GMT+3)<br />
-              Saturday: 10:00 AM - 4:00 PM (GMT+3)<br />
-              Sunday: Closed
-            </p>
-          </section>
         </div>
 
         <footer className="mt-12 text-center text-gray-500">
